@@ -1,8 +1,17 @@
 import React from 'react';
-import {CurrentlyTime} from "./Componets/CurrentlyTime";
+import {Header} from "./Header";
+import {Search} from "./Componets/Search/Search";
+import {Main} from './Componets/Main/Main';
 function App() {
 
-    return <CurrentlyTime />
+    return (
+        <>
+            <Header />
+            <Search />
+            <Main />
+        </>
+
+    )
 }
 
 export default App;
